@@ -1,0 +1,4 @@
+127.0.0.1 - - [04/Jan/2025:12:03:03 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/Jan/2025:12:03:04 +0530] "GET /Hibernate-14-PaginationApp/ HTTP/1.1" 200 777
+0:0:0:0:0:0:0:1 - - [04/Jan/2025:12:03:05 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [04/Jan/2025:12:04:29 +0530] "GET /Hibernate-14-PaginationApp/controller?pageSize=3&s1=generateReport HTTP/1.1" 500 1427

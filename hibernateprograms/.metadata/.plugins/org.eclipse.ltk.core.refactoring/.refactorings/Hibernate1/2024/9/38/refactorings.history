@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;GetRecodeApp.java&apos; to &apos;Hibernate1/src/in.ops.om.main&apos;&#x0D;&#x0A;- Original project: &apos;Hibernate1&apos;&#x0D;&#x0A;- Destination element: &apos;Hibernate1/src/in.ops.om.main&apos;&#x0D;&#x0A;- Original element: &apos;in.ops.om.main.GetRecodeApp.java&apos;" description="Copy compilation unit" destination="/src&lt;in.ops.om.main" element1="/src&lt;in.ops.om.main{GetRecodeApp.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1726928606002" units="1" version="1.0"/>
+</session>

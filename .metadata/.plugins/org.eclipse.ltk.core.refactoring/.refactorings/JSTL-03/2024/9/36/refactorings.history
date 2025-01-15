@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;in.ops.om.beans.Student.saddress&apos; in &apos;in.ops.om.beans.Student&apos;&#x0D;&#x0A;- Original project: &apos;JSTL-03&apos;&#x0D;&#x0A;- Original element: &apos;in.ops.om.beans.Student.saddress&apos;&#x0D;&#x0A;- Getter method name: &apos;getSaddress&apos;&#x0D;&#x0A;- Setter method name: &apos;setSaddress&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;saddress&apos;" flags="589830" getter="getSaddress" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java&lt;in.ops.om.beans{Student.java[Student^saddress" insertion="7" setter="setSaddress" stamp="1725458078041" version="1.0" visibility="1"/>
+</session>

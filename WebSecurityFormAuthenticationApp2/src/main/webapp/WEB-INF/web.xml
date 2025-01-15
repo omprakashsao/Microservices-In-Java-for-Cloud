@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	
+	<security-constraint>
+	      <web-resource-collection>
+	      <web-resource-name>WEBSEC</web-resource-name>
+	      <url-pattern>/showBalance</url-pattern>
+	      <http-method>GET</http-method>
+	      <http-method>POST</http-method>
+	      </web-resource-collection>
+	      
+	      <auth-constraint>
+	      <role-name>managerrole</role-name>
+	      </auth-constraint>
+	      
+	    
+	</security-constraint>
+	
+	<!--  <login-config>
+	    <auth-method>BASIC</auth-method>
+	</login-config> -->
+	 <login-config>
+	    <auth-method>FORM</auth-method>
+	    <form-login-config>
+	    <form-login-page>/login_form.html</form-login-page>
+	    <form-error-page>/login_failed.html</form-error-page>
+	    </form-login-config>
+	</login-config>
+	
+	<security-role>
+	<role-name>managerrole</role-name>
+	</security-role>
+	
+	<error-page>
+	<error-code>403</error-code>
+	<location>/error_403.jsp</location>
+	</error-page>
+	
+</web-app>

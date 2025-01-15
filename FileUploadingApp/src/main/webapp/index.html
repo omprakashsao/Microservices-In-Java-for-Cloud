@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Landing Page</title>
+</head>
+<body style="background-color: rgb(119, 207, 159); color: green;" >
+<h1  style="color: red; text-align: center"> Welcome to OPS Studio</h1>
+<form action="./upload" method="post" enctype="multipart/form-data">
+ <table align="center" border="2">
+      <tr>
+      <td><label for="name"><b>Name:</b></label></td>
+      <td><input type="text" name="name" id="name" placeholder="enter your name" /></td>
+      </tr>
+
+     <tr>
+          <td><label for="address"><b>Address:</b></label></td>
+          <td><input type="text" name="address" id="address" placeholder="enter your marks" /></td>
+     </tr>
+
+
+     <tr>  
+          <td><label for="resume"><b>Resume:</b></label></td>
+          <td><input type="file" name="resume" id="resume" placeholder="enter your resume" /></td>
+     </tr>
+
+     <tr>  
+          <td><label for="photo"><b>Photo:</b></label></td>
+          <td><input type="file" name="photo" id="photo" placeholder="enter your photo" /></td>
+     </tr>
+      
+      <tr><td colspan="2" align="center"><input type="submit"  value="Submit"/></td></tr>
+ </table>
+</form>
+</body>
+</html>

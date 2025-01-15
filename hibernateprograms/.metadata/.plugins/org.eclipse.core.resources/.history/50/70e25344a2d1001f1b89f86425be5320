@@ -1,0 +1,5 @@
+package in.ops.om.bean;
+
+public class BankAccount {
+
+}
