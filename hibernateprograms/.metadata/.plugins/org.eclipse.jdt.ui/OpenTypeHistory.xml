@@ -2,4 +2,5 @@
 <typeInfoHistroy>
     <typeInfo handle="=Hibernate-Hql-InsertQuery/src&lt;in.ops.om.bean.dao{InsurancePolicyDao.java[InsurancePolicyDao" modifiers="513" timestamp="1731001742521"/>
     <typeInfo handle="=Hibernate-14-PaginationApp/src\/main\/java&lt;in.ops.om.service{InsurancePolicyMgmtService.java[InsurancePolicyMgmtService" modifiers="513" timestamp="1735966205864"/>
+    <typeInfo handle="=Hibernate-25-AssociationMappingO2MApp/src&lt;in.ops.om.dao{PersonDao.java[PersonDao" modifiers="513" timestamp="1737488234438"/>
 </typeInfoHistroy>
